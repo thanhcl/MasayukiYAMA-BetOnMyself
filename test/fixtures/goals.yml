@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  goalname: MyString
+  deadline: 2017-09-11
+  price: 1
+  progress: MyText
+  like_num: 1
+  dislike_num: 1
+  user_img: 
+  user_name: MyString
+  user_email: MyString
+  paypal: MyString
+  friend_name: MyString
+  friend_email: MyString
+
+two:
+  goalname: MyString
+  deadline: 2017-09-11
+  price: 1
+  progress: MyText
+  like_num: 1
+  dislike_num: 1
+  user_img: 
+  user_name: MyString
+  user_email: MyString
+  paypal: MyString
+  friend_name: MyString
+  friend_email: MyString

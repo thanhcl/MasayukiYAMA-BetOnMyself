@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Goalname:</strong>
+  <%= @goal.goalname %>
+</p>
+
+<p>
+  <strong>Deadline:</strong>
+  <%= @goal.deadline %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @goal.price %>
+</p>
+
+<p>
+  <strong>Progress:</strong>
+  <%= @goal.progress %>
+</p>
+
+<p>
+  <strong>Like num:</strong>
+  <%= @goal.like_num %>
+</p>
+
+<p>
+  <strong>Dislike num:</strong>
+  <%= @goal.dislike_num %>
+</p>
+
+<p>
+  <strong>User img:</strong>
+  <%= @goal.user_img %>
+</p>
+
+<p>
+  <strong>User name:</strong>
+  <%= @goal.user_name %>
+</p>
+
+<p>
+  <strong>User email:</strong>
+  <%= @goal.user_email %>
+</p>
+
+<p>
+  <strong>Paypal:</strong>
+  <%= @goal.paypal %>
+</p>
+
+<p>
+  <strong>Friend name:</strong>
+  <%= @goal.friend_name %>
+</p>
+
+<p>
+  <strong>Friend email:</strong>
+  <%= @goal.friend_email %>
+</p>
+
+<%= link_to 'Edit', edit_goal_path(@goal) %> |
+<%= link_to 'Back', goals_path %>
